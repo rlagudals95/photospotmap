@@ -1,9 +1,9 @@
-import Map from "@/components/Map";
+import MapBox from "@/components/MapBox";
 
 const MainPage = () => {
   return (
     <div className="grid h-screen place-items-center">
-      <Map></Map>
+      <MapBox/>
     </div>
   );
 };
